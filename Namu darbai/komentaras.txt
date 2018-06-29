@@ -1,0 +1,6 @@
+1. OK
+2. OK.
+3. Ne visi atitraukimai nuo krasto yra gerai kode.
+4. Rodo vaizdà gerà bet kodas nera gerai. Nera saraso sarase. [li]Pirmadienis[ol][li]Matematika[/li]...[/li] taip turi atrodyti fragmentas is saraso sarase.
+5. atitraukimus nuo krasto reiktu sutvarkyti.
+6. Nieko nera.
