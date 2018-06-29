@@ -1,0 +1,19 @@
+body{
+  background-color: gold;
+}
+div{
+  width: 200px;
+  height: 200px;
+  background-color: silver;
+  border-radius: 70px;
+  box-shadow: 0px 0px 70px black;
+}
+
+
+div.sta{
+  position: relative;
+  width: 3px;
+  height: 3px;
+  left: 500px;
+  box-shadow: 0px 0px 5px;
+}

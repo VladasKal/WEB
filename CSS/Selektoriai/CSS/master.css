@@ -1,0 +1,97 @@
+h1{
+  background-color: yellow;
+}
+
+#Turinys{
+  color: green;
+}
+
+ul.menu{
+  list-style-type: none;
+}
+
+h1.pirmas{
+  color: blue;
+
+}
+
+h1.antras{
+  color: purple;
+}
+
+p.pirmas::first-letter{
+  color: blue;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-align: justify;
+  height: 400px;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px black;
+  background color: white;
+  color: white;
+
+}
+  p.pirmas::first-letter{
+    font-size: 50px;
+
+
+
+}
+
+span{
+  background-color: yellow;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+/* [class]{
+  background-color: black;
+} */
+[required]{
+  background-color: pink;
+}
+
+table{
+  width: 100%
+}
+
+input[type="text"]{
+  width: 100%;
+}
+
+[class$="as"]{
+  background-color: red;
+}
+
+ul.menu li{
+  display: inline;
+}
+
+ul.menu a{
+  text-decoration: none;
+  color: green;
+  text-transform: uppercase;
+}
+
+
+a:hover{
+  background-color: blue;
+}
+
+a:active{
+  background-color: yellow;
+}
+
+
+table tr:first-child{
+  background-color: red;
+}
+/* kas antra eilute pradeda pirmu */
+ul li:nth-child(2n+1){
+  background-color: green;
+}
+/*lenteles spalvinimas i sona  */
+table.lentele tr td:nth-child(2n+1){
+  background-color: black;
+}

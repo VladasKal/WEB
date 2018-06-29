@@ -1,0 +1,37 @@
+div{
+  position: relative;
+}
+div.pirmas{
+  width: 500px;
+  background-color: green;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+div.antras{
+  width: 480px;
+  background-color: blue;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+div.trecias{
+  width: 460px;
+  background-color: silver;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+div.ketvirtas{
+  width: 440px;
+  background-color: red;
+  padding: 10px;
+  text-align: justify;
+  z-index: 9999;
+  overflow: hidden;
+  margin: 5px;
+}
+img{
+  width: 100%;
+  border-top-left-radius: 80px;
+}

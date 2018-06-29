@@ -1,0 +1,17 @@
+.article{
+  width: 200px;
+}
+
+.item{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  min-height: 300px;
+  max-height: 500px;
+
+}
+
+div.item img{
+  width: 100%;
+
+}

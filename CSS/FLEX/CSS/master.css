@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  flex-wrap: wrap;
+  background-color: silver;
+  /* align-items: center; */
+  align-content: flex-starts;
+  justify-content: center;
+
+
+}
+
+[class^="item"]{
+  /* flex: 50%; */
+  border: 1px solid black; text-align: center;
+  height: 50px;
+  width: 200px;
+  border-color: gold;
+}
+
+.item1{
+  order: 1;
+}
+
+.item2{
+  order: 2;
+  font-size: 30pt;
+}
+
+/* .item1{
+  flex: 40%;
+}
+
+.item2{
+  flex: 40%;
+}
+
+.item3{
+  flex: 40%;
+} */
