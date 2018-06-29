@@ -1,0 +1,128 @@
+.v-link {
+  color: black;
+}
+
+@media screen {
+  nav {
+    background-color: rgba(0, 0, 0, 0) ;
+    box-shadow: none;
+  }
+  .navbar-fixed {
+    position: absolute;
+    z-index:999999999;
+  }
+  body, html {
+      height: 100%;
+  }
+}
+
+#index-banner {
+  height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .bg {
+      background-image: url("../images/foto/DSC_0020.jpg");
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+}
+
+.v-map {
+  border: 0;
+  width: 100%;
+  height: 67%;
+  align: right;
+}
+
+.h1 {
+  color: white;
+}
+
+
+
+.contact{
+  color: white
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+@media screen and (min-width: 992px) {
+  .contacts-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contacts-block {
+    width: 40%;
+    margin-left: 0 !important;
+  }
+  .site-logo {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contacts-block {
+    text-align: center !important;
+  }
+}
+
+.map-div {
+  width: 100%;
+}
+
+.icon-block {
+  text-align: center;
+}
+
+.carousel.carousel-slider {
+  margin-bottom: 15px;
+}
+
+.carousel .carousel-item img {
+  width: 40% !important;
+  border-radius: 15px;
+}
+
+.carousel .carousel-item {
+  text-align: center;
+}
+
+.middle-indicator {
+  position:absolute;
+  top:50%;
+}
+.middle-indicator-text {
+  font-size: 4.2rem;
+}
+a.middle-indicator-text {
+  color: black !important;
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input-field {
+   margin-left: 0 !important;
+}

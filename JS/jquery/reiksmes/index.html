@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="box">
+      <p>tekstas</p>
+      <p>tekstas</p>
+      <p>tekstas</p>
+    </div>
+
+    <textarea name="name" rows="8" cols="80"></textarea>
+
+    <script src="../jquery331.js" charset="utf-8"></script>
+    <script type="text/javascript">
+
+      $("div.box").on.("click", function(){
+      $("textarea").text($(this).html());
+      })
+
+
+    </script>
+  </body>
+</html>

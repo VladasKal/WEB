@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .minulaukas{
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="minulaukas">
+      <input type="text" id="x" name="" value="">
+      <input type="text" id="y" name="" value="">
+      <button type="button" name="button">YES!</button>
+
+    </div>
+
+
+    <script src="../jquery331.js" charset="utf-8"></script>
+    <script type="text/javascript">
+
+     $("input").on("blur", function() {
+       $(this).css({"backgroundColor":"blue"});
+     });
+
+     $(".minulaukas").on("mousemove", function(){
+       $("#x").val(event.clientX);
+       $("#y").val(event.clientY);
+     });
+
+     $(".minulaukas").on("click", function(){
+       if(event.clientY < 200) {
+         alert("BOOOMM");
+       }
+     });
+
+
+    </script>
+  </body>
+</html>
